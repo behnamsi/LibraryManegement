@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>963</width>
+    <height>802</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="bgWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>0</y>
+     <width>991</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bgWidget{
+background-color:qlineargradient(spread:reflect, x1:0.221277, y1:0.102273, x2:0.562, y2:0.563, stop:0 rgba(193, 125, 17, 255), stop:1 rgba(255, 255, 255, 255))}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>60</y>
+      <width>481</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 36pt &quot;Ubuntu Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>library management</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>270</y>
+      <width>331</width>
+      <height>253</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="add_book_button">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(46, 52, 54);
+font: 14pt &quot;Ubuntu&quot;;color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>add book</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="remove_book_button">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(46, 52, 54);
+font: 14pt &quot;Ubuntu&quot;;color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>remove book</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="list_book_button">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(46, 52, 54);
+font: 14pt &quot;Ubuntu&quot;;color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>list of books</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="search_book_button">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(46, 52, 54);
+font: 14pt &quot;Ubuntu&quot;;color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>search spcefic book</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="rent_book_button">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(46, 52, 54);
+font: 14pt &quot;Ubuntu&quot;;color:rgb(255, 255, 255)
+</string>
+       </property>
+       <property name="text">
+        <string>Rent book</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="rented_book_button">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(46, 52, 54);
+font: 14pt &quot;Ubuntu&quot;;color:rgb(255, 255, 255)
+</string>
+       </property>
+       <property name="text">
+        <string>Rented Books</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

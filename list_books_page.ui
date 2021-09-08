@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>963</width>
+    <height>802</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="bgWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>971</width>
+     <height>821</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bgWidget{
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(114, 159, 207, 255), stop:1 rgba(255, 255, 255, 255))}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>20</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 32pt &quot;Ubuntu&quot;;color:rgb(46, 52, 54)</string>
+    </property>
+    <property name="text">
+     <string>list Of Books</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back_button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>700</y>
+      <width>106</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(85, 87, 83);
+color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="book_list">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>911</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>book id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>title</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>author</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>genre</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>price</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="show_button">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>700</y>
+      <width>106</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(85, 87, 83);
+color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>show</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
